@@ -39,3 +39,8 @@ count(5)
 print(recursive_fact(9))
 
 print(recur_Base_fact_Memo(9))
+print(recur_Base_fact_Memo(9))  # Found in Cache
+print(recur_Base_fact_Memo(5))  # Found in Cache
+
+print(recur_Base_fact_Memo(11))  # Mix of Found and Nothing Found in Cache
+
